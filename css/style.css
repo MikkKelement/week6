@@ -1,0 +1,197 @@
+/**CSS variables ehk  muutujad**/
+
+:root {
+    --dark-color:#053e4e; 
+    --medium-color:#8c8696; 
+    --medium-transparent: #8c869695;
+    --light-color:#64b2c0; 
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('../fonts/Manrope-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: Manrope; 
+    text-align: center;
+}
+
+.intro-image {    
+    background-attachment: fixed;
+    background-image: url('../images/pexels-damon-hall-pealt1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.intro-image__link {    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro-image__link a {
+    border: 2px solid #64b2c0; 
+    display: inline-block;
+    background-color: var(--medium-transparent);
+    color: var(--dark-color);
+    font-size: 2.2rem;
+    padding: 1.4rem;
+    text-decoration: none;    
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out; 
+        
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    display: flex;
+    background-color: rgb(209, 223, 231);
+    color: var(--dark-color);
+    height: 250px;
+    padding: 0 15rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    display: flex;
+    background-attachment: fixed;
+    background-image: url('/images/pexels-mamunurpics-palm2.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quality-image__link a {    
+    border: 2px solid rgba(251, 166, 10, 0.87); 
+    display: inline-block;
+    background-color: var(--medium-transparent);
+    color: rgba(230, 190, 11, 0.849);
+    font-size: 2.2rem;
+    padding: 1.4rem;
+    text-decoration: none;    
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;    
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.quality-text {
+    display: flex;
+    background-color: rgb(222, 232, 243);
+    color: var(--dark-color);
+    height: 250px;
+    padding: 0 15rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-text h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('/images/pexels-vincent-gerbouin-kutt3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+
+}
+
+.origin-image__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.origin-image__link a {
+    border: 2px solid #3c4344; 
+    display: inline-block;
+    background-color: var(--medium-transparent);
+    color: yellow;
+    font-size: 2.2rem;
+    padding: 1.4rem;
+    text-decoration: none;    
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-text {
+    display: flex;
+    background-color: rgb(222, 232, 243);
+    color: var(--dark-color);
+    height: 250px;
+    padding: 0 15rem; 
+    justify-content: center;
+    align-items: center;
+}
+.origin-text h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    height: 150px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    font-size: 1.5rem;
+}
+
+.contact {
+    padding-top: 2rem;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 0.2s ease-in-out; 
+}
+
+.contact ul li a:hover {
+    color: rgb(246, 218, 242)
+    }
+
+    .footer p {
+        margin-top: 3rem;
+    }
